@@ -10,7 +10,7 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 def main():
-    st.title("동네 식당 검색기")
+    st.title("동네 맛집 검색기")
     content = st.text_input("검색하고 싶은 동네를 입력해주세요")
     
     if st.button("검색"):

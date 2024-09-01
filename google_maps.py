@@ -18,7 +18,7 @@ def search_maps(content):
         # location="Wonhyo-ro 1 ga, Yongsan-gu, Seoul, Korea", 
         location=(lat, lng),
         radius=500,
-        keyword="restaurant",
+        keyword="famous restaurant",
         language="ko"
     )
     if places_result.get("results"):
